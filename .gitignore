@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-/demo
+demo
 
 # local env files
 .env.local

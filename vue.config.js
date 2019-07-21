@@ -7,5 +7,8 @@ module.exports = {
         javascriptEnabled: true
       }
     }
-  }
+  },
+  publicPath: './',
+  outputDir: 'demo',
+  assetsDir: 'assets'
 }

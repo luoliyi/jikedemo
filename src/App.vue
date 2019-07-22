@@ -2,7 +2,10 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/layout">UserLayout</router-link> |
+      <router-link to="/global">BaseLayout</router-link> |
+      <router-link to="/global/demo1">demo1</router-link> |
     </div>
     <router-view/>
   </div>

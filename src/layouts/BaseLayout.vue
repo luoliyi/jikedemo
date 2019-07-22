@@ -2,7 +2,7 @@
     <div class="BaseLayout">
       <!--头部-->
       <GlobalHeader/>
-      <!--动态内容-->
+      <!--动态路由，加载该路由下的子组件-->
       <router-view/>
       <!--底部-->
       <GlobalFooter/>

@@ -9,7 +9,7 @@ module.exports = {
     }
   },
   publicPath: './',
-  outputDir: 'demo',
+  outputDir: 'dist',
   assetsDir: 'assets',
   // 不生成map哈希文件
   productionSourceMap: false,

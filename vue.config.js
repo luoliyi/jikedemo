@@ -10,5 +10,10 @@ module.exports = {
   },
   publicPath: './',
   outputDir: 'demo',
-  assetsDir: 'assets'
+  assetsDir: 'assets',
+  // 不生成map哈希文件
+  productionSourceMap: false,
+  //  pluginOptions
+  pluginOptions: {
+  }
 }

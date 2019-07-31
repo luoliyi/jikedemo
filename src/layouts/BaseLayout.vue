@@ -1,13 +1,25 @@
 <template>
     <div class="BaseLayout">
-      <!--头部-->
-      <GlobalHeader/>
-      <!--侧边栏-->
-      <SiderMenu/>
-      <!--动态路由，加载该路由下的子组件-->
-      <router-view/>
-      <!--底部-->
-      <GlobalFooter/>
+      <a-layout>
+        <a-layout-sider>
+          <!--侧边栏-->
+          <SiderMenu/>
+        </a-layout-sider>
+        <a-layout>
+          <a-layout-header>
+            <!--头部-->
+            <GlobalHeader/>
+          </a-layout-header>
+          <a-layout-content>
+            <!--动态路由，加载该路由下的子组件-->
+            <router-view/>
+          </a-layout-content>
+          <a-layout-footer>
+            <!--底部-->
+            <GlobalFooter/>
+          </a-layout-footer>
+        </a-layout>
+      </a-layout>
     </div>
 </template>
 

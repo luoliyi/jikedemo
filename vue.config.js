@@ -11,8 +11,8 @@ module.exports = {
   publicPath: './',
   outputDir: 'dist',
   assetsDir: 'assets',
-  // 不生成map哈希文件
-  productionSourceMap: false,
+  // 不生成map哈希文件(如果要用source-map-explorer 去监测文件使用大小，应生成map文件)
+  productionSourceMap: true,
   //  pluginOptions
   pluginOptions: {
   }

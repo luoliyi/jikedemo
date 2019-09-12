@@ -9,7 +9,7 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-import G2 from '@antv/g2'
+// import G2 from '@antv/g2'
 export default {
   name: 'home',
   components: {
@@ -27,6 +27,7 @@ export default {
         { genre: 'Shooter', sold: 350 },
         { genre: 'Other', sold: 150 }
       ]
+      // eslint-disable-next-line no-undef
       const chart = new G2.Chart({
         container: 'c1', // 指定图表容器 ID
         width: 600, // 指定图表宽度
